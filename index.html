@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>User List</title>
+    <script src="script.js"></script>
 </head>
 <body>
-    <h1>deployTEst</h1>
+    <h1>User List</h1>
+
+    <form id="userForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+        <button type="submit">Add User</button>
+    </form>
+
+    <div id="userList">
+        <h2>Current Users:</h2>
+        <ul id="users"></ul>
+    </div>
 </body>
 </html>
